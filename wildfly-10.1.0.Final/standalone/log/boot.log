@@ -1,0 +1,469 @@
+2018-08-04 18:48:42,725 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-08-04 18:48:42,849 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-08-04 18:48:42,913 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-08-04 18:48:42,914 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/jboss-modules.jar:/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-oracle/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_161-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_161
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.161-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final
+	jboss.host.name = josemar-z270x
+	jboss.modules.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = josemar-z270x
+	jboss.qualified.host.name = josemar-z270x
+	jboss.server.base.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone
+	jboss.server.config.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/log
+	jboss.server.name = josemar-z270x
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/modules
+	org.jboss.boot.log.file = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.8.0-53-generic
+	path.separator = :
+	program.name = JBossTools: WildFly 10.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-oracle/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=/home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/bin
+	user.home = /home/josemar
+	user.language = pt
+	user.name = josemar
+	user.timezone = America/Fortaleza
+2018-08-04 18:48:42,915 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:36481 -Dprogram.name=JBossTools: WildFly 10.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=/home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2018-08-04 18:48:43,351 ERROR [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0055: Caught exception during boot: org.jboss.as.controller.persistence.ConfigurationPersistenceException: WFLYCTL0085: Failed to parse configuration
+	at org.jboss.as.controller.persistence.XmlConfigurationPersister.load(XmlConfigurationPersister.java:131) [wildfly-controller-2.2.0.Final.jar:2.2.0.Final]
+	at org.jboss.as.server.ServerService.boot(ServerService.java:357) [wildfly-server-2.2.0.Final.jar:2.2.0.Final]
+	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:299) [wildfly-controller-2.2.0.Final.jar:2.2.0.Final]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_161]
+Caused by: javax.xml.stream.XMLStreamException: org.jboss.as.connector.util.ParserException: IJ010061: Unexpected element: datasources
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:637)
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:200)
+	at org.jboss.staxmapper.XMLMapperImpl.processNested(XMLMapperImpl.java:110) [staxmapper-1.2.0.Final.jar:1.2.0.Final]
+	at org.jboss.staxmapper.XMLExtendedStreamReaderImpl.handleAny(XMLExtendedStreamReaderImpl.java:69) [staxmapper-1.2.0.Final.jar:1.2.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml_4.parseServerProfile(StandaloneXml_4.java:546) [wildfly-server-2.2.0.Final.jar:2.2.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml_4.readServerElement(StandaloneXml_4.java:242) [wildfly-server-2.2.0.Final.jar:2.2.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml_4.readElement(StandaloneXml_4.java:141) [wildfly-server-2.2.0.Final.jar:2.2.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readElement(StandaloneXml.java:103) [wildfly-server-2.2.0.Final.jar:2.2.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readElement(StandaloneXml.java:49) [wildfly-server-2.2.0.Final.jar:2.2.0.Final]
+	at org.jboss.staxmapper.XMLMapperImpl.processNested(XMLMapperImpl.java:110) [staxmapper-1.2.0.Final.jar:1.2.0.Final]
+	at org.jboss.staxmapper.XMLMapperImpl.parseDocument(XMLMapperImpl.java:69) [staxmapper-1.2.0.Final.jar:1.2.0.Final]
+	at org.jboss.as.controller.persistence.XmlConfigurationPersister.load(XmlConfigurationPersister.java:123) [wildfly-controller-2.2.0.Final.jar:2.2.0.Final]
+	... 3 more
+Caused by: org.jboss.as.connector.util.ParserException: IJ010061: Unexpected element: datasources
+	at org.jboss.as.connector.subsystems.datasources.DsParser.parseDataSources(DsParser.java:254)
+	at org.jboss.as.connector.subsystems.datasources.DsParser.parse(DsParser.java:182)
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:630)
+	... 14 more
+
+2018-08-04 18:48:43,353 FATAL [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0056: Server boot has failed in an unrecoverable manner; exiting. See previous messages for details.
+2018-08-04 18:48:43,394 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 34ms
+2018-08-04 19:03:08,395 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-08-04 19:03:08,518 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-08-04 19:03:08,589 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-08-04 19:03:08,590 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/jboss-modules.jar:/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-oracle/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_161-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_161
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.161-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final
+	jboss.host.name = josemar-z270x
+	jboss.modules.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = josemar-z270x
+	jboss.qualified.host.name = josemar-z270x
+	jboss.server.base.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone
+	jboss.server.config.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/log
+	jboss.server.name = josemar-z270x
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/modules
+	org.jboss.boot.log.file = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.8.0-53-generic
+	path.separator = :
+	program.name = JBossTools: WildFly 10.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-oracle/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=/home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/bin
+	user.home = /home/josemar
+	user.language = pt
+	user.name = josemar
+	user.timezone = America/Fortaleza
+2018-08-04 19:03:08,590 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:34389 -Dprogram.name=JBossTools: WildFly 10.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=/home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2018-08-04 19:03:09,051 ERROR [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0055: Caught exception during boot: org.jboss.as.controller.persistence.ConfigurationPersistenceException: WFLYCTL0085: Failed to parse configuration
+	at org.jboss.as.controller.persistence.XmlConfigurationPersister.load(XmlConfigurationPersister.java:131) [wildfly-controller-2.2.0.Final.jar:2.2.0.Final]
+	at org.jboss.as.server.ServerService.boot(ServerService.java:357) [wildfly-server-2.2.0.Final.jar:2.2.0.Final]
+	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:299) [wildfly-controller-2.2.0.Final.jar:2.2.0.Final]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_161]
+Caused by: javax.xml.stream.XMLStreamException: org.jboss.as.connector.util.ParserException: IJ010061: Unexpected element: datasources
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:637)
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:200)
+	at org.jboss.staxmapper.XMLMapperImpl.processNested(XMLMapperImpl.java:110) [staxmapper-1.2.0.Final.jar:1.2.0.Final]
+	at org.jboss.staxmapper.XMLExtendedStreamReaderImpl.handleAny(XMLExtendedStreamReaderImpl.java:69) [staxmapper-1.2.0.Final.jar:1.2.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml_4.parseServerProfile(StandaloneXml_4.java:546) [wildfly-server-2.2.0.Final.jar:2.2.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml_4.readServerElement(StandaloneXml_4.java:242) [wildfly-server-2.2.0.Final.jar:2.2.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml_4.readElement(StandaloneXml_4.java:141) [wildfly-server-2.2.0.Final.jar:2.2.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readElement(StandaloneXml.java:103) [wildfly-server-2.2.0.Final.jar:2.2.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readElement(StandaloneXml.java:49) [wildfly-server-2.2.0.Final.jar:2.2.0.Final]
+	at org.jboss.staxmapper.XMLMapperImpl.processNested(XMLMapperImpl.java:110) [staxmapper-1.2.0.Final.jar:1.2.0.Final]
+	at org.jboss.staxmapper.XMLMapperImpl.parseDocument(XMLMapperImpl.java:69) [staxmapper-1.2.0.Final.jar:1.2.0.Final]
+	at org.jboss.as.controller.persistence.XmlConfigurationPersister.load(XmlConfigurationPersister.java:123) [wildfly-controller-2.2.0.Final.jar:2.2.0.Final]
+	... 3 more
+Caused by: org.jboss.as.connector.util.ParserException: IJ010061: Unexpected element: datasources
+	at org.jboss.as.connector.subsystems.datasources.DsParser.parseDataSources(DsParser.java:254)
+	at org.jboss.as.connector.subsystems.datasources.DsParser.parse(DsParser.java:182)
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:630)
+	... 14 more
+
+2018-08-04 19:03:09,054 FATAL [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0056: Server boot has failed in an unrecoverable manner; exiting. See previous messages for details.
+2018-08-04 19:03:09,068 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 10ms
+2018-08-04 19:05:15,247 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-08-04 19:05:15,353 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-08-04 19:05:15,409 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-08-04 19:05:15,410 DEBUG [org.jboss.as.config] (MSC service thread 1-5) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/jboss-modules.jar:/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-oracle/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_161-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_161
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.161-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final
+	jboss.host.name = josemar-z270x
+	jboss.modules.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = josemar-z270x
+	jboss.qualified.host.name = josemar-z270x
+	jboss.server.base.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone
+	jboss.server.config.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/log
+	jboss.server.name = josemar-z270x
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/modules
+	org.jboss.boot.log.file = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.8.0-53-generic
+	path.separator = :
+	program.name = JBossTools: WildFly 10.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-oracle/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=/home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/bin
+	user.home = /home/josemar
+	user.language = pt
+	user.name = josemar
+	user.timezone = America/Fortaleza
+2018-08-04 19:05:15,410 DEBUG [org.jboss.as.config] (MSC service thread 1-5) VM Arguments: -Dprogram.name=JBossTools: WildFly 10.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=/home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2018-08-04 19:05:15,812 ERROR [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0055: Caught exception during boot: org.jboss.as.controller.persistence.ConfigurationPersistenceException: WFLYCTL0085: Failed to parse configuration
+	at org.jboss.as.controller.persistence.XmlConfigurationPersister.load(XmlConfigurationPersister.java:131) [wildfly-controller-2.2.0.Final.jar:2.2.0.Final]
+	at org.jboss.as.server.ServerService.boot(ServerService.java:357) [wildfly-server-2.2.0.Final.jar:2.2.0.Final]
+	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:299) [wildfly-controller-2.2.0.Final.jar:2.2.0.Final]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_161]
+Caused by: javax.xml.stream.XMLStreamException: org.jboss.as.connector.util.ParserException: IJ010061: Unexpected element: datasources
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:637)
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:200)
+	at org.jboss.staxmapper.XMLMapperImpl.processNested(XMLMapperImpl.java:110) [staxmapper-1.2.0.Final.jar:1.2.0.Final]
+	at org.jboss.staxmapper.XMLExtendedStreamReaderImpl.handleAny(XMLExtendedStreamReaderImpl.java:69) [staxmapper-1.2.0.Final.jar:1.2.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml_4.parseServerProfile(StandaloneXml_4.java:546) [wildfly-server-2.2.0.Final.jar:2.2.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml_4.readServerElement(StandaloneXml_4.java:242) [wildfly-server-2.2.0.Final.jar:2.2.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml_4.readElement(StandaloneXml_4.java:141) [wildfly-server-2.2.0.Final.jar:2.2.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readElement(StandaloneXml.java:103) [wildfly-server-2.2.0.Final.jar:2.2.0.Final]
+	at org.jboss.as.server.parsing.StandaloneXml.readElement(StandaloneXml.java:49) [wildfly-server-2.2.0.Final.jar:2.2.0.Final]
+	at org.jboss.staxmapper.XMLMapperImpl.processNested(XMLMapperImpl.java:110) [staxmapper-1.2.0.Final.jar:1.2.0.Final]
+	at org.jboss.staxmapper.XMLMapperImpl.parseDocument(XMLMapperImpl.java:69) [staxmapper-1.2.0.Final.jar:1.2.0.Final]
+	at org.jboss.as.controller.persistence.XmlConfigurationPersister.load(XmlConfigurationPersister.java:123) [wildfly-controller-2.2.0.Final.jar:2.2.0.Final]
+	... 3 more
+Caused by: org.jboss.as.connector.util.ParserException: IJ010061: Unexpected element: datasources
+	at org.jboss.as.connector.subsystems.datasources.DsParser.parseDataSources(DsParser.java:254)
+	at org.jboss.as.connector.subsystems.datasources.DsParser.parse(DsParser.java:182)
+	at org.jboss.as.connector.subsystems.datasources.DataSourcesExtension$DataSourceSubsystemParser.readElement(DataSourcesExtension.java:630)
+	... 14 more
+
+2018-08-04 19:05:15,814 FATAL [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0056: Server boot has failed in an unrecoverable manner; exiting. See previous messages for details.
+2018-08-04 19:05:15,823 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 4ms
+2018-08-04 19:07:37,962 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-08-04 19:07:38,094 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-08-04 19:07:38,174 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-08-04 19:07:38,175 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/jboss-modules.jar:/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-oracle/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_161-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_161
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.161-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final
+	jboss.host.name = josemar-z270x
+	jboss.modules.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = josemar-z270x
+	jboss.qualified.host.name = josemar-z270x
+	jboss.server.base.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone
+	jboss.server.config.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/log
+	jboss.server.name = josemar-z270x
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/modules
+	org.jboss.boot.log.file = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/log/boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.8.0-53-generic
+	path.separator = :
+	program.name = JBossTools: WildFly 10.x
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-oracle/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=/home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = BR
+	user.dir = /home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/bin
+	user.home = /home/josemar
+	user.language = pt
+	user.name = josemar
+	user.timezone = America/Fortaleza
+2018-08-04 19:07:38,175 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:44753 -Dprogram.name=JBossTools: WildFly 10.x -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=/home/josemar/Documentos/workspace-ifma/wildfly-10.1.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2018-08-04 19:07:38,875 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found reunire.war in deployment directory. To trigger deployment create a file called reunire.war.dodeploy
+2018-08-04 19:07:38,892 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-08-04 19:07:38,902 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.4.0.Final
+2018-08-04 19:07:38,909 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.4.0.Final
