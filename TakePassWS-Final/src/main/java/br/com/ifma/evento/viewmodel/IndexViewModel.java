@@ -32,8 +32,8 @@ public class IndexViewModel {
 	
 	@Init
 	public void init() throws NamingException {
-		clienteDAO = InitialContext.doLookup("java:global/TakePassWS/ClienteDAO");
-		eventoDAO = InitialContext.doLookup("java:global/TakePassWS/EventoDAO");
+		clienteDAO = InitialContext.doLookup("java:global/reunire/ClienteDAO");
+		eventoDAO = InitialContext.doLookup("java:global/reunire/EventoDAO");
 		cliente = new Cliente();
 		evento = new Evento();
 		colClientes = clienteDAO.findAll();

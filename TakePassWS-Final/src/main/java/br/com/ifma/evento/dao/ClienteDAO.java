@@ -3,19 +3,19 @@ package br.com.ifma.evento.dao;
 import java.util.List;
 
 import javax.ejb.Stateless;
-import javax.ejb.TransactionAttribute;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 import javax.transaction.Transactional;
 
 import br.com.ifma.evento.modelo.Cliente;
+import br.com.ifma.evento.util.JPAUtil;
 
 @Stateless
 public class ClienteDAO {
 	
 	@PersistenceContext(unitName="evento")
-	public EntityManager manager; //= new JPAUtil().getEntityManager();
+	public EntityManager manager = new JPAUtil().getEntityManager();
 
 	@Transactional
 	public Cliente insert(Cliente cliente) {

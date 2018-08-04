@@ -61,7 +61,7 @@ public class EventoDAO {
 		EventoDAO dao = null;
 		
 		try {
-			dao = InitialContext.doLookup("java:global/TakePassWS/EventoDAO");
+			dao = InitialContext.doLookup("java:global/reunire/EventoDAO");
 		} catch (NamingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

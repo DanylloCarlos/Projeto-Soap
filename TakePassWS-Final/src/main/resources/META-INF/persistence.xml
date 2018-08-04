@@ -3,10 +3,7 @@
 	
 	<persistence-unit name="evento" transaction-type="JTA">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-        <jta-data-source>java:jboss/datasources/EventoDS</jta-data-source> 
-        
-        <class>br.com.ifma.evento.modelo.Cliente</class>
-         <class>br.com.ifma.evento.modelo.Evento</class>
+        <jta-data-source>java:jboss/datasources/EventoDS</jta-data-source>
              
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect"/> 
