@@ -5240,3 +5240,180 @@ Caused by: org.hibernate.MappingException: Unknown entity: br.com.ifma.evento.mo
 	...]
 2018-08-04 20:04:53,384 INFO  [org.hibernate.dialect.Dialect] (default task-2) HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
 2018-08-04 20:04:53,511 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-2) Envers integration enabled? : true
+2018-08-06 09:29:26,418 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 4.0.21.Final
+2018-08-06 09:29:26,456 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-08-06 09:29:26,466 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-08-06 09:29:26,466 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-08-06 09:29:26,501 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-08-06 09:29:26,520 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-08-06 09:29:26,530 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-08-06 09:29:26,639 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2018-08-06 09:29:26,644 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-08-06 09:29:26,648 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = mysql
+2018-08-06 09:29:26,649 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-08-06 09:29:26,759 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2018-08-06 09:29:26,766 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2018-08-06 09:29:26,782 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-08-06 09:29:26,784 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-08-06 09:29:26,829 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-08-06 09:29:26,829 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2018-08-06 09:29:26,911 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/home/psjosemar/workspace-ifma/Projeto-Soap/wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-08-06 09:29:26,929 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2018-08-06 09:29:26,946 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0018: Host default-host starting
+2018-08-06 09:29:26,999 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2018-08-06 09:29:27,000 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2018-08-06 09:29:27,057 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2018-08-06 09:29:27,210 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-08-06 09:29:27,240 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/EventoDS]
+2018-08-06 09:29:27,349 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-4) WFLYDM0111: Keystore /home/psjosemar/workspace-ifma/Projeto-Soap/wildfly-10.1.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-08-06 09:29:27,378 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "EventoWS.war" (runtime-name: "EventoWS.war")
+2018-08-06 09:29:27,379 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "reunire.war" (runtime-name: "reunire.war")
+2018-08-06 09:29:27,389 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory /home/psjosemar/workspace-ifma/Projeto-Soap/wildfly-10.1.0.Final/standalone/deployments
+2018-08-06 09:29:27,522 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-6) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-08-06 09:29:27,629 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-06 09:29:27,630 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 63) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-06 09:29:27,637 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-06 09:29:27,637 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-06 09:29:27,694 ERROR [stderr] (JCA PoolFiller) Mon Aug 06 09:29:27 BRT 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2018-08-06 09:29:27,720 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-06 09:29:27,721 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 59) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-06 09:29:27,864 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2018-08-06 09:29:28,271 ERROR [stderr] (JCA PoolFiller) Mon Aug 06 09:29:28 BRT 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2018-08-06 09:29:28,282 ERROR [stderr] (JCA PoolFiller) Mon Aug 06 09:29:28 BRT 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2018-08-06 09:29:28,285 ERROR [stderr] (JCA PoolFiller) Mon Aug 06 09:29:28 BRT 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2018-08-06 09:29:28,293 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-08-06 09:29:28,297 ERROR [stderr] (JCA PoolFiller) Mon Aug 06 09:29:28 BRT 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2018-08-06 09:29:28,302 ERROR [stderr] (JCA PoolFiller) Mon Aug 06 09:29:28 BRT 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2018-08-06 09:29:28,306 ERROR [stderr] (JCA PoolFiller) Mon Aug 06 09:29:28 BRT 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2018-08-06 09:29:28,311 ERROR [stderr] (JCA PoolFiller) Mon Aug 06 09:29:28 BRT 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2018-08-06 09:29:28,316 ERROR [stderr] (JCA PoolFiller) Mon Aug 06 09:29:28 BRT 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2018-08-06 09:29:28,322 ERROR [stderr] (JCA PoolFiller) Mon Aug 06 09:29:28 BRT 2018 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+2018-08-06 09:29:31,403 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry log4j.jar in /home/psjosemar/workspace-ifma/Projeto-Soap/wildfly-10.1.0.Final/standalone/deployments/EventoWS.war/WEB-INF/lib/commons-logging-1.0.3.jar  does not point to a valid jar for a Class-Path reference.
+2018-08-06 09:29:31,403 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0059: Class Path entry log4j-core.jar in /home/psjosemar/workspace-ifma/Projeto-Soap/wildfly-10.1.0.Final/standalone/deployments/EventoWS.war/WEB-INF/lib/commons-logging-1.0.3.jar  does not point to a valid jar for a Class-Path reference.
+2018-08-06 09:29:31,515 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry log4j.jar in /home/psjosemar/workspace-ifma/Projeto-Soap/wildfly-10.1.0.Final/standalone/deployments/reunire.war/WEB-INF/lib/commons-logging-1.0.3.jar  does not point to a valid jar for a Class-Path reference.
+2018-08-06 09:29:31,515 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry log4j-core.jar in /home/psjosemar/workspace-ifma/Projeto-Soap/wildfly-10.1.0.Final/standalone/deployments/reunire.war/WEB-INF/lib/commons-logging-1.0.3.jar  does not point to a valid jar for a Class-Path reference.
+2018-08-06 09:29:31,611 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for evento
+2018-08-06 09:29:31,618 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for evento
+2018-08-06 09:29:31,901 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'EventoWS.war#evento'
+2018-08-06 09:29:31,925 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'reunire.war#evento'
+2018-08-06 09:29:31,938 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 59) HHH000204: Processing PersistenceUnitInfo [
+	name: evento
+	...]
+2018-08-06 09:29:31,939 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 58) HHH000204: Processing PersistenceUnitInfo [
+	name: evento
+	...]
+2018-08-06 09:29:32,005 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment EventoWS.war
+2018-08-06 09:29:32,017 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment reunire.war
+2018-08-06 09:29:32,112 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 59) HHH000412: Hibernate Core {5.0.10.Final}
+2018-08-06 09:29:32,121 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000206: hibernate.properties not found
+2018-08-06 09:29:32,129 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 59) HHH000021: Bytecode provider name : javassist
+2018-08-06 09:29:32,158 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.2.4.Final
+2018-08-06 09:29:32,196 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 58) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-06 09:29:32,275 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'EventoDAO' in deployment unit 'deployment "reunire.war"' are as follows:
+
+	java:global/reunire/EventoDAO!br.com.ifma.evento.dao.EventoDAO
+	java:app/reunire/EventoDAO!br.com.ifma.evento.dao.EventoDAO
+	java:module/EventoDAO!br.com.ifma.evento.dao.EventoDAO
+	java:global/reunire/EventoDAO
+	java:app/reunire/EventoDAO
+	java:module/EventoDAO
+
+2018-08-06 09:29:32,276 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "reunire.war"' are as follows:
+
+	java:global/reunire/ClienteDAO!br.com.ifma.evento.dao.ClienteDAO
+	java:app/reunire/ClienteDAO!br.com.ifma.evento.dao.ClienteDAO
+	java:module/ClienteDAO!br.com.ifma.evento.dao.ClienteDAO
+	java:global/reunire/ClienteDAO
+	java:app/reunire/ClienteDAO
+	java:module/ClienteDAO
+
+2018-08-06 09:29:32,281 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'EventoDAO' in deployment unit 'deployment "EventoWS.war"' are as follows:
+
+	java:global/EventoWS/EventoDAO!br.com.ifma.evento.dao.EventoDAO
+	java:app/EventoWS/EventoDAO!br.com.ifma.evento.dao.EventoDAO
+	java:module/EventoDAO!br.com.ifma.evento.dao.EventoDAO
+	java:global/EventoWS/EventoDAO
+	java:app/EventoWS/EventoDAO
+	java:module/EventoDAO
+
+2018-08-06 09:29:32,281 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "EventoWS.war"' are as follows:
+
+	java:global/EventoWS/ClienteDAO!br.com.ifma.evento.dao.ClienteDAO
+	java:app/EventoWS/ClienteDAO!br.com.ifma.evento.dao.ClienteDAO
+	java:module/ClienteDAO!br.com.ifma.evento.dao.ClienteDAO
+	java:global/EventoWS/ClienteDAO
+	java:app/EventoWS/ClienteDAO
+	java:module/ClienteDAO
+
+2018-08-06 09:29:32,511 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-06 09:29:32,512 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-08-06 09:29:32,555 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-08-06 09:29:32,556 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2018-08-06 09:29:32,561 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2018-08-06 09:29:32,562 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0003: Unable to instantiate driver class "org.olap4j.driver.xmla.XmlaOlap4jDriver": java.lang.NoSuchMethodException: org.olap4j.driver.xmla.XmlaOlap4jDriver.<init>()
+2018-08-06 09:29:32,573 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-08-06 09:29:32,574 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.fabric.jdbc.FabricMySQLDriver (version 5.1)
+2018-08-06 09:29:32,576 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2018-08-06 09:29:32,578 WARN  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0003: Unable to instantiate driver class "org.olap4j.driver.xmla.XmlaOlap4jDriver": java.lang.NoSuchMethodException: org.olap4j.driver.xmla.XmlaOlap4jDriver.<init>()
+2018-08-06 09:29:32,615 INFO  [org.jboss.weld.Version] (MSC service thread 1-8) WELD-000900: 2.3.5 (Final)
+2018-08-06 09:29:32,666 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-7) JBWS024061: Adding service endpoint metadata: id=br.com.ifma.evento.servicoweb.EventoService
+ address=http://localhost:8080/EventoWS/EventoService
+ implementor=br.com.ifma.evento.servicoweb.EventoService
+ serviceName={http://servicoweb.evento.ifma.com.br/}EventoServiceService
+ portName={http://servicoweb.evento.ifma.com.br/}EventoServicePort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2018-08-06 09:29:32,670 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-8) JBWS024061: Adding service endpoint metadata: id=br.com.ifma.evento.servicoweb.EventoService
+ address=http://localhost:8080/reunire/EventoService
+ implementor=br.com.ifma.evento.servicoweb.EventoService
+ serviceName={http://servicoweb.evento.ifma.com.br/}EventoServiceService
+ portName={http://servicoweb.evento.ifma.com.br/}EventoServicePort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2018-08-06 09:29:32,860 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 58) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-08-06 09:29:33,175 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-8) Creating Service {http://servicoweb.evento.ifma.com.br/}EventoServiceService from class br.com.ifma.evento.servicoweb.EventoService
+2018-08-06 09:29:33,175 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-7) Creating Service {http://servicoweb.evento.ifma.com.br/}EventoServiceService from class br.com.ifma.evento.servicoweb.EventoService
+2018-08-06 09:29:33,552 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-8) Setting the server's publish address to be http://localhost:8080/reunire/EventoService
+2018-08-06 09:29:33,553 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-7) Setting the server's publish address to be http://localhost:8080/EventoWS/EventoService
+2018-08-06 09:29:33,619 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-8) JBWS024074: WSDL published to: file:/home/psjosemar/workspace-ifma/Projeto-Soap/wildfly-10.1.0.Final/standalone/data/wsdl/reunire.war/EventoServiceService.wsdl
+2018-08-06 09:29:33,629 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-7) JBWS024074: WSDL published to: file:/home/psjosemar/workspace-ifma/Projeto-Soap/wildfly-10.1.0.Final/standalone/data/wsdl/EventoWS.war/EventoServiceService.wsdl
+2018-08-06 09:29:33,663 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = EventoWS.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-08-06 09:29:33,663 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = EventoWS.war_org.postgresql.Driver_9_4
+2018-08-06 09:29:33,663 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = EventoWS.war_com.mysql.jdbc.Driver_5_1
+2018-08-06 09:29:33,664 INFO  [org.jboss.as.webservices] (MSC service thread 1-5) WFLYWS0003: Starting service jboss.ws.endpoint."EventoWS.war"."br.com.ifma.evento.servicoweb.EventoService"
+2018-08-06 09:29:33,664 INFO  [org.jboss.as.webservices] (MSC service thread 1-4) WFLYWS0003: Starting service jboss.ws.endpoint."reunire.war"."br.com.ifma.evento.servicoweb.EventoService"
+2018-08-06 09:29:33,667 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = reunire.war_com.mysql.jdbc.Driver_5_1
+2018-08-06 09:29:33,667 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = reunire.war_org.postgresql.Driver_9_4
+2018-08-06 09:29:33,668 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = reunire.war_com.mysql.fabric.jdbc.FabricMySQLDriver_5_1
+2018-08-06 09:29:33,830 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 58) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'reunire.war#evento'
+2018-08-06 09:29:33,836 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 59) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'EventoWS.war#evento'
+2018-08-06 09:29:33,880 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 58) HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2018-08-06 09:29:33,880 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 59) HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2018-08-06 09:29:33,932 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 58) Envers integration enabled? : true
+2018-08-06 09:29:33,932 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 59) Envers integration enabled? : true
+2018-08-06 09:29:35,340 INFO  [org.zkoss.zk.ui.http.WebManager] (ServerService Thread Pool -- 61) Starting ZK 8.5.0 CE (build: 2017103111)
+2018-08-06 09:29:35,351 INFO  [org.zkoss.zk.ui.sys.ConfigParser] (ServerService Thread Pool -- 61) Loading system default
+2018-08-06 09:29:35,375 INFO  [org.zkoss.zk.ui.http.WebManager] (ServerService Thread Pool -- 59) Starting ZK 8.5.0 CE (build: 2017103111)
+2018-08-06 09:29:35,389 INFO  [org.zkoss.zk.ui.sys.ConfigParser] (ServerService Thread Pool -- 59) Loading system default
+2018-08-06 09:29:35,401 INFO  [org.zkoss.zk.ui.sys.ConfigParser] (ServerService Thread Pool -- 61) Parsing vfs:/home/psjosemar/workspace-ifma/Projeto-Soap/wildfly-10.1.0.Final/standalone/deployments/EventoWS.war/WEB-INF/lib/zul-8.5.0.jar/metainfo/zk/zk.xml
+2018-08-06 09:29:35,408 INFO  [org.zkoss.zk.ui.sys.ConfigParser] (ServerService Thread Pool -- 61) Parsing file:/home/psjosemar/workspace-ifma/Projeto-Soap/wildfly-10.1.0.Final/standalone/deployments/EventoWS.war/WEB-INF/zk.xml
+2018-08-06 09:29:35,428 INFO  [org.zkoss.zk.ui.sys.ConfigParser] (ServerService Thread Pool -- 59) Parsing vfs:/home/psjosemar/workspace-ifma/Projeto-Soap/wildfly-10.1.0.Final/standalone/deployments/reunire.war/WEB-INF/lib/zul-8.5.0.jar/metainfo/zk/zk.xml
+2018-08-06 09:29:35,434 INFO  [org.zkoss.zk.ui.sys.ConfigParser] (ServerService Thread Pool -- 59) Parsing file:/home/psjosemar/workspace-ifma/Projeto-Soap/wildfly-10.1.0.Final/standalone/deployments/reunire.war/WEB-INF/zk.xml
+2018-08-06 09:29:35,783 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 61) WFLYUT0021: Registered web context: /EventoWS
+2018-08-06 09:29:35,788 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0021: Registered web context: /reunire
+2018-08-06 09:29:35,800 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "EventoWS.war" (runtime-name : "EventoWS.war")
+2018-08-06 09:29:35,800 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "reunire.war" (runtime-name : "reunire.war")
+2018-08-06 09:29:35,912 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-08-06 09:29:35,912 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-08-06 09:29:35,912 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 11125ms - Started 660 of 902 services (416 services are lazy, passive or on-demand)
+2018-08-06 09:29:52,128 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-3) HHH000204: Processing PersistenceUnitInfo [
+	name: evento
+	...]
+2018-08-06 09:29:52,135 INFO  [org.hibernate.dialect.Dialect] (default task-3) HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2018-08-06 09:29:52,145 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-3) Envers integration enabled? : true
+2018-08-06 09:29:52,245 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-3) HHH000397: Using ASTQueryTranslatorFactory
+2018-08-06 09:29:52,502 INFO  [org.zkoss.util.resource.impl.LabelLoaderImpl] (default task-3) Loading labels for pt_BR
+2018-08-06 09:29:52,504 INFO  [org.zkoss.util.resource.impl.LabelLoaderImpl] (default task-3) Loading labels for pt
+2018-08-06 09:30:04,238 INFO  [stdout] (default task-7) casamento

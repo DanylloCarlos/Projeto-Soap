@@ -159,7 +159,7 @@
                     </pool>
                     <security>
                         <user-name>root</user-name>
-                        <password>123</password>
+                        <password>salmos91</password>
                     </security>
                     <statement>
                         <prepared-statement-cache-size>32</prepared-statement-cache-size>
