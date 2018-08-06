@@ -22,7 +22,7 @@ public class EventoServiceServiceLocator extends org.apache.axis.client.Service 
     }
 
     // Use to get a proxy class for EventoServicePort
-    private java.lang.String EventoServicePort_address = "http://localhost:8080/reunire/EventoService";
+    private java.lang.String EventoServicePort_address = "http://localhost:8080/EventoWS/EventoService";
 
     public java.lang.String getEventoServicePortAddress() {
         return EventoServicePort_address;

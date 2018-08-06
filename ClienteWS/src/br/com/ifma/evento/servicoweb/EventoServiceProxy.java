@@ -44,6 +44,12 @@ public class EventoServiceProxy implements br.com.ifma.evento.servicoweb.EventoS
     return eventoService;
   }
   
+  public br.com.ifma.evento.servicoweb.Evento[] listarTodosOsClientesPorEvento(java.lang.String arg0) throws java.rmi.RemoteException{
+    if (eventoService == null)
+      _initEventoServiceProxy();
+    return eventoService.listarTodosOsClientesPorEvento(arg0);
+  }
+  
   public br.com.ifma.evento.servicoweb.Evento listarClientesPorEvento(java.lang.String arg0) throws java.rmi.RemoteException{
     if (eventoService == null)
       _initEventoServiceProxy();

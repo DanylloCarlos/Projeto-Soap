@@ -1,5 +1,7 @@
 package br.com.ifma.evento.servicoweb;
 
+import java.util.List;
+
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 
@@ -14,10 +16,22 @@ public class EventoService {
 		
 		Evento evento;
 		
-		EventoDAO facadeBean = new EventoDAO();
+		EventoDAO evemtoDAO = new EventoDAO();
 		
-		evento = facadeBean.findByClientesPorEvento(nomeEvento);
+		evento = evemtoDAO.findByClientesPorEvento(nomeEvento);
 		
 		return evento;
+	}
+	
+	@WebMethod
+	public List<Evento> listarTodosOsClientesPorEvento(String nomeEvento){
+		
+		List<Evento> colEventos;
+		
+		EventoDAO eventoDAO = new EventoDAO();
+		
+		colEventos = eventoDAO.findAllClientesPorEvento(nomeEvento);
+		
+		return colEventos;
 	}
 }

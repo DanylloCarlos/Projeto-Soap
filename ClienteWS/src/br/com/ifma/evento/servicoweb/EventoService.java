@@ -8,5 +8,6 @@
 package br.com.ifma.evento.servicoweb;
 
 public interface EventoService extends java.rmi.Remote {
+    public br.com.ifma.evento.servicoweb.Evento[] listarTodosOsClientesPorEvento(java.lang.String arg0) throws java.rmi.RemoteException;
     public br.com.ifma.evento.servicoweb.Evento listarClientesPorEvento(java.lang.String arg0) throws java.rmi.RemoteException;
 }

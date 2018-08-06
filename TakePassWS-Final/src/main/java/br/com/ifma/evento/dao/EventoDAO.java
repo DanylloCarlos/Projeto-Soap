@@ -61,7 +61,7 @@ public class EventoDAO {
 		EventoDAO dao = null;
 		
 		try {
-			dao = InitialContext.doLookup("java:global/reunire/EventoDAO");
+			dao = InitialContext.doLookup("java:global/EventoWS/EventoDAO");
 		} catch (NamingException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -78,6 +78,38 @@ public class EventoDAO {
 		}*/
 		
 		return listarClientesPorEvento.get(0);
+	}
+	
+	@Transactional
+	public List<Evento> findAllClientesPorEvento(String nomeEvento){
+		//listarClientesPorEvento = new ArrayList<>();
+	
+		/*String sql = "Select e From Evento e, Cliente c "
+				+ " where  e.cliente.id = c.id"
+				+ " and e.nomeEvento = :nomeEvento";*/
+		
+		String sql = "select e.* from evento e, cliente c where c.id = e.cliente_id and e.nome_evento like :nomeEvento";
+		
+		EventoDAO dao = null;
+		
+		try {
+			dao = InitialContext.doLookup("java:global/EventoWS/EventoDAO");
+		} catch (NamingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		Query query = dao.manager.createNativeQuery(sql, Evento.class);
+		query.setParameter("nomeEvento", "%" + nomeEvento + "%");
+		
+		listarClientesPorEvento = query.getResultList();
+		//listarClientesPorEvento = query.getResultList();
+		
+		/*for (Evento evento : listarClientesPorEvento) {
+			System.out.println("Cliente: " + evento.toString());
+		}*/
+		
+		return listarClientesPorEvento;
 	}
 
 	public List<Evento> findAll() {
